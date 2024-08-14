@@ -1,82 +1,147 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
 .mtk1:not(.colorpicker-color-decoration) {
-    background-image: linear-gradient(45deg, #ffffff, #e2e2e2);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 600;
+  background-image: linear-gradient(45deg, #ffffff, #e2e2e2);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .mtk6 {
-    background-image: linear-gradient(45deg, #ff61d2, #fe908f);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #ff61d2, #fe908f);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .mtk10 {
-    background-image: linear-gradient(45deg, #11998f, #38ef7d);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #11998f, #38ef7d);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .mtk12 {
-    background-image: linear-gradient(45deg, #50e3da, #4677d3);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #50e3da, #4677d3);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .monaco-editor .detected-link {
-    text-decoration: none;
-    text-underline-position: under;
-    border-bottom: 2px solid #50afe3;
+  text-decoration: none;
+  text-underline-position: under;
+  border-bottom: 2px solid #50afe3;
 }
 
 .monaco-editor .detected-link-active {
-    text-decoration: none;
-    text-underline-position: under;
-    border-bottom: 2px solid #4677d3;
+  text-decoration: none;
+  text-underline-position: under;
+  border-bottom: 2px solid #4677d3;
 }
 
 .mtk5 {
-    background-image: linear-gradient(45deg, #acacac, #838383);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 600;
-    opacity: 0.6;
+  background-image: linear-gradient(45deg, #acacac, #838383);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  opacity: 0.6;
 }
 
 .mtk9 {
-    background-image: linear-gradient(45deg, #ffdc5e, #fff759);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #ffdc5e, #fff759);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .mtk7 {
-    background-image: linear-gradient(45deg, #33d1c7, #67ffa1);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #33d1c7, #67ffa1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .mtk16 {
-    background-image: linear-gradient(45deg, #ffe483, #fff87a);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #ffe483, #fff87a);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .mtk14 {
-    background-image: linear-gradient(45deg, #bebebe, #7f7f7f);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #bebebe, #7f7f7f);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
 
 .mtk11 {
-    background-image: linear-gradient(45deg, #ff7b7b, #ff5353);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
+  background-image: linear-gradient(45deg, #ff7b7b, #ff5353);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.mtk18 {
+  background-image: linear-gradient(45deg, #dc7bff, #c653ff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.mtk3 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.mtk19 {
+  background-image: linear-gradient(45deg, #33d1c7, #678dff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+a.label-name {
+  color: #fff;
+  font-weight: 600;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab
+  > .tab-actions
+  .action-label.codicon {
+  display: grid;
+  place-items: center;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab
+  > .tab-actions
+  .action-label.codicon::before {
+  content: "\f00d";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 800;
+  font-size: 85%;
+}
+
+.monaco-editor .line-numbers {
+  background-image: linear-gradient(45deg, #acacac, #757575);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.monaco-editor .line-numbers.active-line-number {
+  background-image: linear-gradient(45deg, #ffffff, #e7e7e7);
 }
